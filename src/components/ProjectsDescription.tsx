@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Reveal } from "./Reveal";
 import Image from "next/image";
 import { IProject } from "@/types";
+import Link from "next/link";
 
 type Props = {
   projects: IProject[];
@@ -53,12 +54,12 @@ export const ProjectsDescription = ({ projects }: Props) => {
               <p className="text-gray-300 text-sm">{project.description}</p>
 
               <div className="flex justify-between items-center mt-3">
-                <a
+                <Link
                   href={project.link}
                   className="text-gray-300 hover:text-lime-500 font-medium transition ease-in"
                 >
                   See more
-                </a>
+                </Link>
                 <span className="text-gray-300 text-sm text-right">
                   {project.createdAt}
                 </span>
