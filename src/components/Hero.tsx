@@ -3,15 +3,18 @@ import { CiLinkedin, CiMail } from "react-icons/ci";
 import { motion } from "framer-motion";
 import meImg from "@/assets/me.webp";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+  const t = useTranslations("Hero");
+
   return (
     <motion.section
       id="hero"
       className="py-16 md:py-32 section"
-      initial={{ opacity: 0 }}
+      initial={{ opacity: 0.2 }}
       whileInView={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.35 }}
       viewport={{ once: true }}
     >
       <div className="max-w-xl flex flex-col items-center md:items-start">
@@ -23,6 +26,7 @@ const Hero = () => {
               className="rounded-full shadow-lg w-[6.5rem] h-28 object-cover"
               width={100}
               height={100}
+              quality={90}
               priority
               placeholder="blur"
             />
@@ -36,7 +40,7 @@ const Hero = () => {
             <div className="flex items-center ">
               <span className="relative inline-flex overflow-hidden rounded-full p-[1px]">
                 <span className="spin-gradient"></span>
-                <div className="available-badge">Available to work!</div>
+                <div className="available-badge">{t("badge")}</div>
               </span>
             </div>
           </a>
@@ -45,15 +49,12 @@ const Hero = () => {
           Guillermo Anguiano
         </h1>
         <p className="mt-6 text-xl [&>strong]:font-semibold text-gray-300">
-          <strong>Fullstack Developer with +1 years of experience</strong>{" "}
-          skilled in building dynamic, scalable applications. Passionate about
-          problem-solving, continuous learning, and collaborating with diverse
-          teams to deliver innovative web solutions.
+          <strong>{t("description.strong")}</strong> {t("description.rest")}
         </p>
         <nav className="mt-4 flex gap-4">
           <a className="hero-btn" href="mailto:jguillermoang@gmail.com">
             <CiMail className="w-5 h-5" />
-            <span>Contact me</span>
+            <span>{t("contact")}</span>
           </a>
           <a className="hero-btn" href="https://linkedin.com/in/guille128">
             <CiLinkedin className="w-5 h-5" />

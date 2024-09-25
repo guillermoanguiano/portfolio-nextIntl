@@ -1,0 +1,54 @@
+{
+    "LayoutMetadata": {
+        "title": "Guillermo Anguiano - Portfolio",
+        "description": "Personal portfolio, Fullstack Developer with +1 years of experience"
+    },
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, es {🇲🇽 Spanish} en {🇺🇸 English} other {Unknown}}"
+    },
+    "Navigation": {
+        "experience": "Experience",
+        "projects": "Projects"
+    },
+    "Hero": {
+        "badge": "Available for work!",
+        "contact": "Contact me",
+        "description": {
+            "strong": "Fullstack Developer with +1 years of experience",
+            "rest": "skilled in building dynamic, scalable applications. Passionate about problem-solving, continuous learning, and collaborating with diverse teams to deliver innovative web solutions."
+        }
+    },
+    "Experience": {
+        "freelancer": {
+            "position": "Fullstack Developer",
+            "company": "Freelancer",
+            "period": "2023 - Present",
+            "description1": "Designed and optimized web applications using React, resulting in a significant increase in loading speed and overall performance. Enhanced user experiences by providing fast, responsive interfaces that engage and captivate users.",
+            "description2": "Enhanced application performance by implementing Clean Architecture and MVC, ensuring a structured and maintainable code. Adhered to best practices with the best design patterns, resulting in organized, scalable code and optimal performance.",
+            "description3": "Proficiency in JavaScript and TypeScript, mastering the creating of clean code."
+        },
+        "calzzapato": {
+            "position": "Fullstack Developer",
+            "company": "Grupo Calzzapato",
+            "period": "2024",
+            "description1": "Actively participated in various internal company projects, leading the development of key modules and proposing innovative solutions that optimized existing processes.",
+            "description2": "Took the initiative in implementing continuous improvements, leveraging emerging technologies and optimizing application performance, resulting in noticeable reductions in load times and increased user productivity.",
+            "description3": "Contributed to the implementation of clean architecture, which not only improved code maintainability but also significantly optimized response times between the API and the user interface. This reduced latency in key interactions, providing a smoother experience for end users and enabling better long-term scalability."
+        }
+    },
+    "Projects": {
+        "passa": {
+            "title": "Refound System - Passa",
+            "description": "A system that allows accountants and employees to manage the refund process in Agricola Passa. The client wanted to use Meteor with React to develop the system.",
+            "link": "#",
+            "createdAt": "2024"
+        },
+        "supervizza": {
+            "title": "Supervizza - Calzzapato",
+            "description": "A system that manages the delivery and transport of employees. The client wanted to use Meteor with React to develop the system.",
+            "link": "#",
+            "createdAt": "2024"
+        }
+    }
+}

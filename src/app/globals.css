@@ -7,7 +7,7 @@
     @apply h-dvh;
   }
   .app-container {
-    @apply text-white min-h-dvh w-full bg-gray-950 max-sm:px-4 max-md:px-6;
+    @apply text-white min-h-dvh w-full bg-gray-950 max-sm:px-4 max-md:px-6 relative transition;
   }
 
   .spin-gradient {
