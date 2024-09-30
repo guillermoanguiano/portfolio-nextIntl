@@ -5,7 +5,7 @@
     },
     "LocaleSwitcher": {
         "label": "Cambiar idioma",
-        "locale": "{locale, select, es {🇲🇽 Español} en {🇺🇸 Inglés} other {Unknown}}"
+        "locale": "{locale, select, es {🇲🇽 Español} en {🇺🇸 English} other {Unknown}}"
     },
     "Navigation": {
         "experience": "Experiencia",
@@ -20,6 +20,7 @@
         }
     },
     "Experience": {
+        "title": "Experiencia",
         "freelancer": {
             "position": "Fullstack Developer",
             "company": "Freelancer",
@@ -38,6 +39,7 @@
         }
     },
     "Projects": {
+        "title": "Proyectos",
         "passa": {
             "title": "Sistema de reembolso - Agricola Passa",
             "description": "Un sistema que administra el proceso de reembolso de la empresa. El cliente quería utilizar Meteor con React para desarrollar el sistema.",

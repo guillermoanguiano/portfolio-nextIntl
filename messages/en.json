@@ -5,7 +5,7 @@
     },
     "LocaleSwitcher": {
         "label": "Change language",
-        "locale": "{locale, select, es {🇲🇽 Spanish} en {🇺🇸 English} other {Unknown}}"
+        "locale": "{locale, select, es {🇲🇽 Español} en {🇺🇸 English} other {Unknown}}"
     },
     "Navigation": {
         "experience": "Experience",
@@ -20,6 +20,7 @@
         }
     },
     "Experience": {
+        "title": "Experience",
         "freelancer": {
             "position": "Fullstack Developer",
             "company": "Freelancer",
@@ -38,6 +39,7 @@
         }
     },
     "Projects": {
+        "title": "Projects",
         "passa": {
             "title": "Refound System - Passa",
             "description": "A system that allows accountants and employees to manage the refund process in Agricola Passa. The client wanted to use Meteor with React to develop the system.",

@@ -19,7 +19,7 @@ const Experience = () => {
   return (
     <section id="experience" className="section">
       <h2 className="text-3xl font-bold flex items-center gap-3 mb-10">
-        <MdWork size={32} /> Experience
+        <MdWork size={32} /> {t("title")}
       </h2>
 
       <ExperienceDescription experience={experience} />
