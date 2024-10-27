@@ -3,6 +3,7 @@ import { CiLinkedin, CiMail } from "react-icons/ci";
 import meImg from "@/assets/me.webp";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const Hero = () => {
   const t = useTranslations("Hero");
@@ -41,7 +42,7 @@ const Hero = () => {
               placeholder="blur"
             />
           </div>
-          <a
+          <Link
             href="https://linkedin.com/in/guille128"
             target="_blank"
             rel="noopener"
@@ -53,7 +54,7 @@ const Hero = () => {
                 <div className="available-badge">{t("badge")}</div>
               </span>
             </div>
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col items-center md:items-start">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-white mt-3">
@@ -63,14 +64,18 @@ const Hero = () => {
             <strong>{t("description.strong")}</strong> {t("description.rest")}
           </p>
           <nav className="mt-4 flex gap-4">
-            <a className="hero-btn" href="mailto:jguillermoang@gmail.com">
+            <Link className="hero-btn" href="#contact">
               <CiMail className="w-5 h-5" />
               <span>{t("contact")}</span>
-            </a>
-            <a className="hero-btn" href="https://linkedin.com/in/guille128">
+            </Link>
+            <Link
+              className="hero-btn"
+              href="https://linkedin.com/in/guille128"
+              target="_blank"
+            >
               <CiLinkedin className="w-5 h-5" />
               <span>LinkedIn</span>
-            </a>
+            </Link>
           </nav>
         </div>
       </div>

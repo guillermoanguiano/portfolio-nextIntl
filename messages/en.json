@@ -9,7 +9,8 @@
     },
     "Navigation": {
         "experience": "Experience",
-        "projects": "Projects"
+        "projects": "Projects",
+        "contact": "Contact me"
     },
     "Hero": {
         "badge": "Available for work!",
@@ -61,5 +62,15 @@
             "createdAt": "2024",
             "internal": ""
         }
+    },
+    "ContactMe": {
+        "title": "Contact me",
+        "name": "Name",
+        "required": "is required",
+        "email": "Email",
+        "subject": "Subject",
+        "phone": "Phone number",
+        "message": "Message",
+        "send": "Send"
     }
 }

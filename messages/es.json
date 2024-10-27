@@ -9,7 +9,8 @@
     },
     "Navigation": {
         "experience": "Experiencia",
-        "projects": "Proyectos"
+        "projects": "Proyectos",
+        "contact": "Contáctame"
     },
     "Hero": {
         "badge": "Disponible para trabajar!",
@@ -61,5 +62,15 @@
             "createdAt": "2024",
             "internal": ""
         }
+    },
+    "ContactMe": {
+        "title": "Contáctame",
+        "name": "Nombre",
+        "email": "Email",
+        "required": "es requerido",
+        "subject": "Asunto",
+        "phone": "Telefóno",
+        "message": "Mensage",
+        "send": "Enviar"
     }
 }

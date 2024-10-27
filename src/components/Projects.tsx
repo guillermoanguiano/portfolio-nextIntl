@@ -53,7 +53,7 @@ const Projects = () => {
   });
 
   return (
-    <section id="projects" className="section pb-16 md:pb-32">
+    <section id="projects" className="section pb-16">
       <h2 className="text-3xl font-bold flex items-center gap-3 mb-10">
         <FaCode size={32} /> {t("title")}
       </h2>
