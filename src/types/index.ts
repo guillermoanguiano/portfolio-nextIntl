@@ -1,6 +1,5 @@
 import { StaticImageData } from "next/image";
 import React from "react";
-import { IconType } from "react-icons";
 
 export interface IExperience {
     company: string;
@@ -16,9 +15,10 @@ export interface IProject {
     img: StaticImageData;
     link: string;
     createdAt: string;
+    internal: string;
 }
 
 export type TIcon = {
-    icon: React.ReactElement<IconType>;
+    icon: React.ReactElement;
     name: string;
 }

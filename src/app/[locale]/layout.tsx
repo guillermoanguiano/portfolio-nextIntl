@@ -50,17 +50,17 @@ export default async function LocaleLayout({
               <div
                 className={cn(
                   `
-                  [--aurora:linear-gradient(135deg,var(--blue-400)_20%,var(--violet-300)_60%)]
-                  [background-image:var(--aurora)]
-                  [background-size:150%]
-                  [background-position:50%_50%]
-                  filter blur-[8px]
-                  after:content-[""] after:absolute after:inset-0 
-                  after:[background-image:var(--aurora)]
-                  after:animate-aurora after:[background-attachment:fixed] 
-                  pointer-events-none
-                  absolute -inset-[5px] opacity-40 will-change-transform 
-                  [mask-image:radial-gradient(ellipse_at_100%_0%,black_10%,transparent_70%)]
+                    absolute 
+                    inset-0 
+                    bg-gradient-to-br 
+                    from-blue-300 
+                    to-violet-500 
+                    bg-[length:120%] 
+                    bg-center 
+                    opacity-50 
+                    blur-[5px] 
+                    [mask-image:radial-gradient(ellipse_at_100%_0%,black_10%,transparent_70%)] 
+                    pointer-events-none
                   `
                 )}
               ></div>

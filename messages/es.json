@@ -43,14 +43,23 @@
         "passa": {
             "title": "Sistema de reembolso - Agricola Passa",
             "description": "Un sistema que administra el proceso de reembolso de la empresa. El cliente quería utilizar Meteor con React para desarrollar el sistema.",
-            "link": "#",
-            "createdAt": "2024"
+            "link": "",
+            "createdAt": "2024",
+            "internal": "Es un proyecto interno"
         },
         "supervizza": {
             "title": "Supervizza - Grupo Calzzapato",
             "description": "Un sistema de supervisión que permite la gestión de horarios, entregas y transporte de empleados. La empresa quería utilizar Meteor con React para desarrollar el sistema.",
-            "link": "#",
-            "createdAt": "2024"
+            "link": "",
+            "createdAt": "2024",
+            "internal": "Es un proyecto interno"
+        },
+        "bydPremier": {
+            "title": "BYD - Grupo Premier",
+            "description": "Una pagina demostrativa de una marca de carros. Se crearon secciones demostrativas, formularios, mapas de ubicación y una sección de contacto.",
+            "link": "https://byd.masoft.mx/",
+            "createdAt": "2024",
+            "internal": ""
         }
     }
 }

@@ -1,31 +1,56 @@
 import gastosPassa from "@/assets/gastosPassa.webp";
 import supervizza from "@/assets/supervizza.webp";
+import bydPremier from "@/assets/byd-page.png";
 import { DiMeteorfull, DiMsqlServer } from "react-icons/di";
 import { FaBootstrap, FaCode, FaReact } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
+import { SiMongodb, SiTailwindcss } from "react-icons/si";
 import { useTranslations } from "next-intl";
 import { ProjectsDescription } from "./ProjectsDescription";
 import { TIcon } from "@/types";
+import { RiNextjsFill } from "react-icons/ri";
+import { StaticImageData } from "next/image";
 
 const Projects = () => {
   const t = useTranslations("Projects");
-  const keys = ["passa", "supervizza"] as const;
+  const keys = ["bydPremier", "passa", "supervizza"] as const;
 
-  const projects = keys.map((key, index) => ({
-    id: index + 1,
-    title: t(`${key}.title`),
-    description: t(`${key}.description`),
-    img: key === "passa" ? gastosPassa : supervizza,
-    iconList: [
-      { icon: <DiMeteorfull />, name: "Meteor.js" },
-      { icon: <FaReact />, name: "React" },
-      { icon: <FaBootstrap />, name: "Bootstrap" },
-      { icon: <SiMongodb />, name: "MongoDB" },
-      key === "passa" && { icon: <DiMsqlServer />, name: "SQL Server" },
-    ].filter(Boolean) as TIcon[],
-    link: t(`${key}.link`),
-    createdAt: t(`${key}.createdAt`),
-  }));
+  const projects = keys.map((key, index) => {
+    const iconList =
+      key !== "bydPremier"
+        ? [
+            { icon: <DiMeteorfull />, name: "Meteor.js" },
+            { icon: <FaReact />, name: "React" },
+            { icon: <FaBootstrap />, name: "Bootstrap" },
+            { icon: <SiMongodb />, name: "MongoDB" },
+            key === "passa" && { icon: <DiMsqlServer />, name: "SQL Server" },
+          ]
+        : key === "bydPremier" && [
+            { icon: <RiNextjsFill />, name: "Next.js" },
+            { icon: <FaReact />, name: "React" },
+            { icon: <SiTailwindcss />, name: "TailwindCSS" },
+          ];
+
+    let img: StaticImageData = gastosPassa;
+
+    if (key === "bydPremier") {
+      img = bydPremier;
+    }
+
+    if (key === "supervizza") {
+      img = supervizza;
+    }
+
+    return {
+      id: index + 1,
+      title: t(`${key}.title`),
+      description: t(`${key}.description`),
+      img,
+      iconList: iconList as TIcon[],
+      link: t(`${key}.link`),
+      createdAt: t(`${key}.createdAt`),
+      internal: t(`${key}.internal`),
+    };
+  });
 
   return (
     <section id="projects" className="section pb-16 md:pb-32">

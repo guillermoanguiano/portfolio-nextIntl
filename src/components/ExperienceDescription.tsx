@@ -9,28 +9,24 @@ type Props = {
 
 export const ExperienceDescription = ({ experience }: Props) => {
   return (
-    <motion.div className="space-y-8" initial="hidden" animate="visible">
-      {experience.map((experience, index) => (
+    <motion.div
+      className="space-y-8"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3 }}
+    >
+      {experience.map((exp, index) => (
         <Reveal key={index} width="w-full">
           <div className="border border-gray-600 py-6 px-9 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-gray-700/10">
             <h2 className="text-gray-100 text-2xl flex justify-between font-semibold">
-              {experience.company}
-              <span className="text-gray-300 text-sm text-right">
-                {experience.period}
-              </span>
+              {exp.company}
+              <span className="text-gray-300 text-sm">{exp.period}</span>
             </h2>
-            <div className="flex justify-between items-center mt-3">
-              <p>
-                {experience.description.map((description, index) => (
-                  <span
-                    key={index}
-                    className="text-gray-400 mt-4 text-pretty list-item w-[90%]"
-                  >
-                    {description}
-                  </span>
-                ))}
-              </p>
-            </div>
+            <ul className="text-gray-400 mt-4 space-y-2 list-inside list-disc">
+              {exp.description.map((desc, idx) => (
+                <li key={idx}>{desc}</li>
+              ))}
+            </ul>
           </div>
         </Reveal>
       ))}
