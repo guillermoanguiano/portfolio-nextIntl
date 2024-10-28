@@ -71,6 +71,7 @@ export const ContactMeForm = () => {
         shadow-md 
         hover:shadow-xl 
         transition-shadow 
+        max-w-full
         duration-300 
         bg-gray-700/10
       `}
