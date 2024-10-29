@@ -77,7 +77,7 @@ export const ContactMeForm = () => {
       `}
       onSubmit={handleSubmit(onSubmit)}
     >
-      <div className="flex gap-3 w-full">
+      <div className="flex flex-col md:flex-row gap-3 w-full">
         <FormField
           label={t("name")}
           {...register("name")}
