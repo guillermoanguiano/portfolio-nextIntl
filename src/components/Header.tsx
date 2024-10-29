@@ -8,7 +8,6 @@ const Header = () => {
   const navItems = [
     { name: t("experience"), link: "#experience" },
     { name: t("projects"), link: "#projects" },
-    { name: t("contact"), link: "#contact" },
   ];
 
   const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, link: string) => {
