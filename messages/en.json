@@ -17,7 +17,7 @@
         "contact": "Contact me",
         "description": {
             "strong": "Fullstack Developer with +1 years of experience",
-            "rest": "skilled in building dynamic, scalable applications. Passionate about problem-solving, continuous learning, and collaborating with diverse teams to deliver innovative web solutions."
+            "rest": ", working with Nextjs, React, tailwindcss, Typescript, MUI and more."
         }
     },
     "Experience": {
@@ -28,7 +28,7 @@
             "period": "2023 - Present",
             "description1": "Designed and optimized web applications using React, resulting in a significant increase in loading speed and overall performance. Enhanced user experiences by providing fast, responsive interfaces that engage and captivate users.",
             "description2": "Enhanced application performance by implementing Clean Architecture and MVC, ensuring a structured and maintainable code. Adhered to best practices with the best design patterns, resulting in organized, scalable code and optimal performance.",
-            "description3": "Proficiency in JavaScript and TypeScript, mastering the creating of clean code."
+            "description3": "Proficiency in JavaScript and TypeScript, especially using tools like Next.js, AWS, or Meteor."
         },
         "calzzapato": {
             "position": "Fullstack Developer",
