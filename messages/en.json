@@ -48,13 +48,6 @@
             "createdAt": "2024",
             "internal": "Internal Project"
         },
-        "supervizza": {
-            "title": "Supervizza - Calzzapato",
-            "description": "A system that manages the delivery and transport of employees. The client wanted to use Meteor with React to develop the system.",
-            "link": "",
-            "createdAt": "2024",
-            "internal": "Internal Project"
-        },
         "bydPremier": {
             "title": "BYD - Premier",
             "description": "A demonstration page developed for a car brand, featuring showcase sections, interactive forms, location maps, and a dedicated contact section.",

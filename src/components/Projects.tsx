@@ -1,5 +1,4 @@
 import gastosPassa from "@/assets/gastosPassa.webp";
-import supervizza from "@/assets/supervizza.webp";
 import bydPremier from "@/assets/byd-page.png";
 import { DiMeteorfull, DiMsqlServer } from "react-icons/di";
 import { FaBootstrap, FaCode, FaReact } from "react-icons/fa";
@@ -12,17 +11,17 @@ import { StaticImageData } from "next/image";
 
 const Projects = () => {
   const t = useTranslations("Projects");
-  const keys = ["bydPremier", "passa", "supervizza"] as const;
+  const keys = ["bydPremier", "passa"] as const;
 
   const projects = keys.map((key, index) => {
     const iconList =
-      key !== "bydPremier"
+      key === "passa"
         ? [
             { icon: <DiMeteorfull />, name: "Meteor.js" },
             { icon: <FaReact />, name: "React" },
             { icon: <FaBootstrap />, name: "Bootstrap" },
             { icon: <SiMongodb />, name: "MongoDB" },
-            key === "passa" && { icon: <DiMsqlServer />, name: "SQL Server" },
+            { icon: <DiMsqlServer />, name: "SQL Server" },
           ]
         : key === "bydPremier" && [
             { icon: <RiNextjsFill />, name: "Next.js" },
@@ -34,10 +33,6 @@ const Projects = () => {
 
     if (key === "bydPremier") {
       img = bydPremier;
-    }
-
-    if (key === "supervizza") {
-      img = supervizza;
     }
 
     return {
