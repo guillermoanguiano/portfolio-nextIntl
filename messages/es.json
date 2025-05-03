@@ -32,7 +32,7 @@
         },
         "gobierno": {
             "position": "Desarrollador Full-stack",
-            "company": "Gobierno del Estado de Sinaloa",
+            "company": "Gobierno de Sinaloa",
             "period": "Octubre 2024 - Abril 2025",
             "description1": "Migración de aplicaciones a Docker, reduciendo los costos de infraestructura en un 30% y las instancias de VM en un 60%.",
             "description2": "Establecimiento de un servidor GitLab local para implementar mejores prácticas de control de versiones, agilizando las revisiones de código.",

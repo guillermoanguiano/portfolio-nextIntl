@@ -32,7 +32,7 @@
         },
         "gobierno": {
             "position": "Fullstack Developer",
-            "company": "Gobierno del Estado de Sinaloa",
+            "company": "Sinaloa Goverment",
             "period": "October 2024 - April 2025",
             "description1": "Migrated legacy applications to Docker, reducing infrastructure costs by 30% and VM instances by 60%.",
             "description2": "Led backend migration to NestJS with TypeORM and SQL Server, implementing domain-driven design principles for a more maintainable architecture.",
