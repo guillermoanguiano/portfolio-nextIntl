@@ -1,7 +1,7 @@
 {
     "LayoutMetadata": {
         "title": "Guillermo Anguiano - Portafolio",
-        "description": "Portafolio personal, Fullstack Developer con +1 años de experiencia"
+        "description": "Portafolio personal, Desarrollador Full Stack con +3 años de experiencia"
     },
     "LocaleSwitcher": {
         "label": "Cambiar idioma",
@@ -14,43 +14,59 @@
     },
     "Hero": {
         "badge": "Disponible para trabajar!",
-        "contact": "Contactame",
+        "contact": "Contáctame",
         "description": {
-            "strong": "Fullstack Developer con +1 años de experiencia",
-            "rest": ", trabajando con Nextjs, React, tailwindcss, Typescript, MUI y más."
+            "strong": "Desarrollador Full Stack con +3 años de experiencia",
+            "rest": ", especializado en React, Node.js, Python y tecnologías cloud."
         }
     },
     "Experience": {
         "title": "Experiencia",
-        "freelancer": {
-            "position": "Fullstack Developer",
-            "company": "Freelancer",
-            "period": "2023 - Present",
-            "description1": "Diseñé y optimicé aplicaciones web usando React, logrando un aumento importante en el rendimiento general. Mejoré la experiencia de usuario proporcionando interfaces rápidas y responsivas que captan la atención de los usuarios.",
-            "description2": "Mejoré el rendimiento de las aplicaciones implementando principios de Clean Architecture y MVC, asegurando un código ordenado, bien estructurado y fácil de mantener. Añadiendo a esto las buenas prácticas y patrones de diseño utilizados.",
-            "description3": "Competencia en JavaScript y TypeScript, sobretodo usando herramientas como Next.js, AWS o Meteor."
+        "infosapiens": {
+            "position": "Desarrollador Fullstack",
+            "company": "Infosapiens.mx",
+            "period": "Abril 2025 - Presente",
+            "description1": "Desarrollo e implementación de arquitectura de microservicios utilizando Python, Node.js y tecnologías Azure, mejorando la escalabilidad y mantenibilidad de las aplicaciones.",
+            "description2": "Diseño y desarrollo de soluciones de microfrontends con React y Angular, facilitando la modularización y el trabajo en equipos independientes.",
+            "description3": "Implementación de prácticas DevOps utilizando Azure DevOps y Azure Repos para gestión de código y participación en decisiones de arquitectura técnica."
         },
-        "calzzapato": {
-            "position": "Fullstack Developer",
-            "company": "Grupo Calzzapato",
-            "period": "2024",
-            "description1": "Participé activamente en diversos proyectos internos de la empresa, liderando el desarrollo de módulos clave y proponiendo soluciones innovadoras que optimizaron los procesos existentes.",
-            "description2": "Tomé la iniciativa en la implementación de mejoras continuas, utilizando tecnologías emergentes y optimizando el rendimiento de las aplicaciones, lo que resultó en una reducción notable de los tiempos de carga y un aumento en la productividad de los usuarios.",
-            "description3": "Contribuí a la implementación de una arquitectura limpia en los proyectos, lo que no solo mejoró la mantenibilidad del código, sino que también optimizó significativamente los tiempos de respuesta entre la API y la interfaz de usuario."
+        "gobierno": {
+            "position": "Desarrollador Full-stack",
+            "company": "Gobierno del Estado de Sinaloa",
+            "period": "Octubre 2024 - Abril 2025",
+            "description1": "Migración de aplicaciones a Docker, reduciendo los costos de infraestructura en un 30% y las instancias de VM en un 60%.",
+            "description2": "Establecimiento de un servidor GitLab local para implementar mejores prácticas de control de versiones, agilizando las revisiones de código.",
+            "description3": "Liderazgo en el desarrollo de una nueva aplicación utilizando Next.js, Shadcn/ui y Tailwind CSS para una interfaz moderna y responsiva, mejorando la seguridad y mantenibilidad."
+        },
+        "masoft": {
+            "position": "Desarrollador Fullstack",
+            "company": "MaSoft",
+            "period": "Septiembre 2023 - Diciembre 2024",
+            "description1": "Desarrollo de Gastos Passa, una aplicación interna para gestionar reembolsos de gastos de empleados, incluyendo carga de facturas en formatos XML, PDF e imagen. Creado con Meteor.js, React, Bootstrap, Zustand y SQL Server.",
+            "description2": "Diseño y entrega de un sitio web informativo para mostrar vehículos BYD, con funcionalidades integradas de correo electrónico (Resend) y WhatsApp. Desarrollado con Next.js, TypeScript y TailwindCSS.",
+            "description3": "Contribución a varios proyectos web introduciendo Dockerización y flujos de trabajo basados en Git para modernizar el proceso de desarrollo y mejorar los plazos de entrega."
+        },
+        "technologies": {
+            "position": "Desarrollador Fullstack",
+            "company": "G&A Technologies",
+            "period": "Noviembre 2021 - Septiembre 2023",
+            "description1": "Desarrollo de soluciones web personalizadas para pequeñas y medianas empresas utilizando Express/Node y React.",
+            "description2": "Creación de interfaces intuitivas y responsivas utilizando Material UI y React para mejorar la experiencia de usuario.",
+            "description3": "Contribución a proyectos existentes para ayudar a completarlos, optimizando el rendimiento mediante la migración a tecnologías de vanguardia."
         }
     },
     "Projects": {
         "title": "Proyectos",
         "passa": {
-            "title": "Sistema de reembolso - Agricola Passa",
-            "description": "Un sistema que administra el proceso de reembolso de la empresa. El cliente quería utilizar Meteor con React para desarrollar el sistema.",
+            "title": "Sistema de Gastos - Passa",
+            "description": "Aplicación interna para gestionar reembolsos de gastos de empleados, incluyendo carga de facturas en formatos XML, PDF e imagen. Desarrollada con Meteor.js, React, Bootstrap, Zustand y SQL Server, agilizando operaciones financieras.",
             "link": "",
             "createdAt": "2024",
-            "internal": "Es un proyecto interno"
+            "internal": "Proyecto Interno"
         },
         "bydPremier": {
-            "title": "BYD - Grupo Premier",
-            "description": "Una pagina demostrativa de una marca de carros. Se crearon secciones demostrativas, formularios, mapas de ubicación y una sección de contacto.",
+            "title": "BYD - Premier",
+            "description": "Sitio web informativo para mostrar vehículos BYD, incluyendo promociones, modelos y opciones de atención al cliente. Con funcionalidades integradas de correo electrónico y WhatsApp. Desarrollado con Next.js, TypeScript y TailwindCSS.",
             "link": "https://bydpremier.com.mx/",
             "createdAt": "2024",
             "internal": ""
@@ -59,11 +75,11 @@
     "ContactMe": {
         "title": "Contáctame",
         "name": "Nombre",
-        "email": "Email",
         "required": "es requerido",
+        "email": "Email",
         "subject": "Asunto",
-        "phone": "Telefóno",
-        "message": "Mensage",
+        "phone": "Teléfono",
+        "message": "Mensaje",
         "send": "Enviar"
     }
 }

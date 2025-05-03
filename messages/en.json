@@ -1,7 +1,7 @@
 {
     "LayoutMetadata": {
         "title": "Guillermo Anguiano - Portfolio",
-        "description": "Personal portfolio, Fullstack Developer with +1 years of experience"
+        "description": "Personal portfolio, Fullstack Developer with +3 years of experience"
     },
     "LocaleSwitcher": {
         "label": "Change language",
@@ -16,27 +16,43 @@
         "badge": "Available for work!",
         "contact": "Contact me",
         "description": {
-            "strong": "Fullstack Developer with +1 years of experience",
-            "rest": ", working with Nextjs, React, tailwindcss, Typescript, MUI and more."
+            "strong": "Fullstack Developer with +3 years of experience",
+            "rest": ", working with React, Python, Node.js and cloud technologies."
         }
     },
     "Experience": {
         "title": "Experience",
-        "freelancer": {
+        "infosapiens": {
             "position": "Fullstack Developer",
-            "company": "Freelancer",
-            "period": "2023 - Present",
-            "description1": "Designed and optimized web applications using React, resulting in a significant increase in loading speed and overall performance. Enhanced user experiences by providing fast, responsive interfaces that engage and captivate users.",
-            "description2": "Enhanced application performance by implementing Clean Architecture and MVC, ensuring a structured and maintainable code. Adhered to best practices with the best design patterns, resulting in organized, scalable code and optimal performance.",
-            "description3": "Proficiency in JavaScript and TypeScript, especially using tools like Next.js, AWS, or Meteor."
+            "company": "Infosapiens.mx",
+            "period": "April 2025 - Present",
+            "description1": "Developing and implementing microservices architecture using Python, Node.js and Azure technologies, improving application scalability and maintainability.",
+            "description2": "Designing microfrontend solutions with React and Angular, facilitating modularization and independent team collaboration.",
+            "description3": "Implementing DevOps practices using Azure DevOps and Azure Repos for effective code management and participating in technical architecture decisions."
         },
-        "calzzapato": {
+        "gobierno": {
             "position": "Fullstack Developer",
-            "company": "Grupo Calzzapato",
-            "period": "2024",
-            "description1": "Actively participated in various internal company projects, leading the development of key modules and proposing innovative solutions that optimized existing processes.",
-            "description2": "Took the initiative in implementing continuous improvements, leveraging emerging technologies and optimizing application performance, resulting in noticeable reductions in load times and increased user productivity.",
-            "description3": "Contributed to the implementation of clean architecture, which not only improved code maintainability but also significantly optimized response times between the API and the user interface. This reduced latency in key interactions, providing a smoother experience for end users and enabling better long-term scalability."
+            "company": "Gobierno del Estado de Sinaloa",
+            "period": "October 2024 - April 2025",
+            "description1": "Migrated legacy applications to Docker, reducing infrastructure costs by 30% and VM instances by 60%.",
+            "description2": "Led backend migration to NestJS with TypeORM and SQL Server, implementing domain-driven design principles for a more maintainable architecture.",
+            "description3": "Established GitLab server for version control and introduced modern front-end technologies (Next.js, Tailwind CSS) improving security and maintainability."
+        },
+        "masoft": {
+            "position": "Fullstack Developer",
+            "company": "MaSoft",
+            "period": "September 2023 - December 2024",
+            "description1": "Developed Gastos Passa, an internal expense management system with Meteor.js, React, Zustand, and SQL Server, optimizing financial operations.",
+            "description2": "Created responsive showcase website for BYD vehicles using Next.js, TypeScript, and TailwindCSS with integrated email and WhatsApp functionalities.",
+            "description3": "Implemented Dockerization and Git workflows across various web projects to modernize development processes and improve delivery timelines."
+        },
+        "technologies": {
+            "position": "Fullstack Developer",
+            "company": "G&A Technologies",
+            "period": "November 2021 - September 2023",
+            "description1": "Built custom web solutions for small and medium-sized businesses using Express/Node and React.",
+            "description2": "Created intuitive and responsive interfaces with Material UI and React for improved user experience.",
+            "description3": "Optimized project performance through migration to cutting-edge technologies like Next.js and Astro."
         }
     },
     "Projects": {

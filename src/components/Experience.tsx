@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 
 const Experience = () => {
   const t = useTranslations("Experience");
-  const keys = ["freelancer", "calzzapato"] as const;
+  const keys = ["infosapiens", "gobierno", "masoft", "technologies"] as const;
 
   const experience = keys.map((key) => ({
     company: `${t(`${key}.position`)} - ${t(`${key}.company`)}`,
